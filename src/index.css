@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('https://manofmany.com/wp-content/uploads/2020/03/wallhaven-md18v9-1.jpg');
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* NavBar Styling */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.nav a:hover {
+  color: rgb(77, 81, 31);
+  text-decoration: none;
+}
+
+h2{
+  color: white;
+  text-decoration: none;
 }
